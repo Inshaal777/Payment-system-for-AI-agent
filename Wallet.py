@@ -50,10 +50,10 @@ if __name__ == "__main__":
     agent1.verify()
     
     # Add funds to the wallet
-    agent1.add_funds(100.0)
+    agent1.add_funds(500.0)
     
     # Make a payment
-    agent1.make_payment(25.0)
+    agent1.make_payment(150.0)
     
     # Check remaining balance
     print(f"Remaining balance for {agent1.name}: ${agent1.wallet.balance}")
